@@ -2,6 +2,10 @@
  * Solve the FizzBuzz challenge.
  */
 class FizzBuzz {
+
+    public static void runMain() {
+        FizzBuzz.main(new String[0]);
+    }
     public static void main(String[] args) {
 
         // initializers
@@ -14,7 +18,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         if ((i %3 == 0) && (i %5 == 0)) {
             System.out.println("FizzBuzz");
         }
