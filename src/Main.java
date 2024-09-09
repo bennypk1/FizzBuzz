@@ -3,6 +3,6 @@ public class Main {
 
         // running the main function from another file:
         FizzBuzz.main(new String[0]);
-        System.out.println("We can also code directly in the git repository!"
+        System.out.println("We can also code directly in the git repository!");
     }
 }
